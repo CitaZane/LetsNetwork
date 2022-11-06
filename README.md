@@ -1,9 +1,11 @@
+# LetsNetwork
 ## Project description
 Facebook-like social network that will contain the following features:
 - Followers
 - Profile
 - Posts
 - Groups
+- Events
 - Notification
 - Chats
 
@@ -15,13 +17,6 @@ To test the project you need to have [NodeJS](https://nodejs.org/en/) installed.
 2. Start backend server by going to **/backend** directory and run `go run server.go`
 
 
-
-
-## Audit questions
-https://github.com/01-edu/public/tree/master/subjects/social-network/audit
-
-
-
 ## Stack
 Frontend
 - Vue
@@ -31,11 +26,22 @@ Backend
 - Go
 - SQLite3
 
-## Authors
-Backend team
-- Laura
-- Zane
+## Role
+Project has been created in a team of 4 people.
+My role in project -> back-end developer
 
-Frontend team
-- Kris
-- Vic
+
+### What I learned
+
+- Structuring big scale go projects
+- Seperating database logic completely from handlers using interfaces
+- Websocket basics
+- Real time messaging and notifications
+- Creating a larger database structure. Also many-to-many relationship in databases
+- Using channels/ gorutines with Go
+
+### To be improved (in back-end part)
+
+- Error handling 
+- Better designing the api (routes not structured well)
+- Implement testing
